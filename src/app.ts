@@ -117,6 +117,6 @@ export class App {
      * immediately fire the 'pointerout' event, and cannot be initiated from
      * within the DOM.
      */
-    // stage.addChild(switcher.container); // Uncomment me!
+    stage.addChild(switcher.container); // Uncomment me!
   }
 }

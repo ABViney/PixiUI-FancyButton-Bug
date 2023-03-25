@@ -540,7 +540,7 @@ export class ScrollBox extends Container
             return;
         }
 
-        this.items.forEach((child) =>
+        this.items.forEach((child:Container) =>
         {
             child.renderable = true;
         });
@@ -553,7 +553,7 @@ export class ScrollBox extends Container
             return;
         }
 
-        this.items.forEach((child) =>
+        this.items.forEach((child:Container) =>
         {
             child.renderable = this.isItemVisible(child);
         });
