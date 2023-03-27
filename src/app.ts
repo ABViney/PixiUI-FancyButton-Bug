@@ -1,5 +1,5 @@
 import { Application, Container, FederatedPointerEvent, Graphics, Sprite } from "pixi.js";
-import { Button, FancyButton, Switcher } from "../Pixi-UI";
+import { Button, FancyButton, Switcher } from "../ui/src";
 
 export class App {
 
